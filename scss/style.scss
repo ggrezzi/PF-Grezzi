@@ -1,29 +1,24 @@
+@import "navBar";
+@import "footer";
+
 *{margin:0;
 padding:0;
 box-sizing: border-box;
 }
-nav {background-color: rgb(255,255,255);}
 
-@media only screen and (min-width: 728px) {
-    li:hover{
-        background-image: url("../img/click.png");
-        background-position: center center;
-        background-size:contain;
-        background-repeat: no-repeat;
-        font-style: italic;
-        font-weight: 600; 
-    }
-.nav-item:hover{box-shadow: 1px 1px 5px #FABCE9;}
-
-.nav-item:active{box-shadow: 1px 1px 5px #FABCE9 inset;}
-.imagenAcerca{height:300px;}
-
-  }
-
-
-.footer{background-color: plum;
-color:black;
-}
 .inicio{padding-top: 50px;
     padding-bottom: 50px;}
+
+
+h1{
+    color:pink;
+}
+
+.btn-primary{background-color: pink;
+    border:0px;
+    &:hover {background-color: rgb(255, 218, 224);}
+}
+
+
+
 

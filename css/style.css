@@ -1,19 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 nav {
   background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 728px) {
   li:hover {
-    background-image: url("../img/click.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
     font-style: italic;
     font-weight: 600;
   }
@@ -27,14 +17,37 @@ nav {
     height: 300px;
   }
 }
+@media only screen and (max-width: 727px) {
+  li:active {
+    background-color: rgb(253, 162, 205);
+  }
+}
 .footer {
   background-color: plum;
   color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .inicio {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+h1 {
+  color: pink;
+}
+
+.btn-primary {
+  background-color: pink;
+  border: 0px;
+}
+.btn-primary:hover {
+  background-color: rgb(255, 218, 224);
 }
 
 /*# sourceMappingURL=style.css.map */

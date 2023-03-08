@@ -1,0 +1,17 @@
+nav {background-color: rgb(255,255,255);}
+@media only screen and (min-width: 728px) {
+    li:hover{
+        font-style: italic;
+        font-weight: 600; 
+    }  
+    .nav-item:hover{box-shadow: 1px 1px 5px #FABCE9;}
+    .nav-item:active{box-shadow: 1px 1px 5px #FABCE9 inset;}
+    .imagenAcerca{height:300px;}
+
+} 
+@media only screen and (max-width: 727px) {
+    li:active{
+        background-color: rgb(253,162,205);
+
+    }
+}
