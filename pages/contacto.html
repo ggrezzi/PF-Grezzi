@@ -13,7 +13,7 @@
     <title>Pipi Wool</title>
 </head>
 <body >
-    <nav class="navbar navbar-expand-lg top-fixed shadow ">
+    <nav class="navbar navbar-expand-lg top-sticky shadow ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Pipi Wool">
@@ -46,8 +46,40 @@
 
     <!-- seccion principal -->
 
+
+    <!--Row 3-->
+    <!--Titulo-->	
+        <div class="col-md-12 text-center"> <h1>Contacto</h1> 
+        </div>
+    <!--Row 4-->
+    <!--Formulario-->
+    <div class="row w-100 justify-content-center">
+
+        <div class="col-md-6" id="formulario"> 
+            <form action="/action_page.php" method="post" name="formulario">
+            <label for="name">Nombre:</label> 
+            <input type="text" id="name" /><br>
+            <label for="mail">Email: </label> 
+            <input type="email" id="mail" /><br>
+            <label for="msg">Mensaje: </label> 
+            <textarea id="msg"></textarea>
+            <legend>¿Deseas recibir novedades por mail?</legend>
+            <label>Sí</label> <input type="radio" name="Novedades" value="Si" checked/>
+            <label>No</label> <input type="radio" name="Novedades" value="No"><br> 
+            <input type="submit" value="Enviar" class="btn btn-primary mt-auto align-self-start"/>
+            </form>
+        </div>
+
+    <!--Mapa-->
+        
+    <div class="col-md-6 mapa justify-content-center">
+        <h3>Envios dentro de Montevideo o al interior por agencias</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209592.3772727854!2d-56.33755747972858!3d-34.83408703524493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80ffc63bf7d3%3A0x6b321b2e355bec99!2sMontevideo%2C%20Montevideo%20Department!5e0!3m2!1sen!2suy!4v1678302661778!5m2!1sen!2suy" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>	
+    </div>
+
     <!--FOOTER-->
-        <footer class="col-md-12 w-100 footer bottom-sticky">
+        <footer class="col-md-12 w-100 footer bottom-fixed">
             <div class="footer-sm text-center">
                 <div>Buscanos en las redes</div>
                 <a href="https://www.instagram.com/pipiwool_uy/" target="blank"><img src="../img/Instagram_icon.png" width="16px" height="16px"></i></a>

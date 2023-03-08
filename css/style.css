@@ -1,3 +1,4 @@
+@charset "UTF-8";
 nav {
   background-color: rgb(255, 255, 255);
 }
@@ -49,5 +50,26 @@ h1 {
 .btn-primary:hover {
   background-color: rgb(255, 218, 224);
 }
+
+input[type=text], [type=email], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0px 20px 12px 0px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+input[type=text], [type=email], textarea:focus {
+  outline-color: #D77948;
+}
+
+/*Formato botón enviar*/
 
 /*# sourceMappingURL=style.css.map */
