@@ -70,6 +70,10 @@ input[type=text], [type=email], textarea:focus {
   outline-color: #D77948;
 }
 
+.formulario {
+  padding: 20px;
+}
+
 /*Formato botón enviar*/
 
 /*# sourceMappingURL=style.css.map */
