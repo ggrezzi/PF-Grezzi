@@ -11,7 +11,9 @@ nav {background-color: rgb(255,255,255);}
 } 
 @media only screen and (max-width: 727px) {
     li:active{
-        background-color: rgb(253,162,205);
-
+        background-color: rgb(253,162,205)
     }
 }
+
+.active {background-color: rgb(255, 218, 224);}
+

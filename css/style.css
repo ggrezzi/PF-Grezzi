@@ -23,6 +23,10 @@ nav {
     background-color: rgb(253, 162, 205);
   }
 }
+.active {
+  background-color: rgb(255, 218, 224);
+}
+
 .footer {
   background-color: plum;
   color: black;
@@ -39,7 +43,7 @@ nav {
   padding-bottom: 50px;
 }
 
-h1, h3 {
+h1, h3, h5 {
   color: pink;
 }
 

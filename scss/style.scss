@@ -9,7 +9,7 @@ box-sizing: border-box;
 .inicio{padding-top: 50px;
     padding-bottom: 50px;}
 
-h1, h3{
+h1, h3, h5{
     color:pink;
 }
 
@@ -17,7 +17,6 @@ h1, h3{
     border:0px;
     &:hover {background-color: rgb(255, 218, 224);}
 }
-
 
 input[type=text],[type=email],textarea {
     width: 100%;
