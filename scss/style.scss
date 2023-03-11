@@ -9,7 +9,6 @@ box-sizing: border-box;
 .inicio{padding-top: 50px;
     padding-bottom: 50px;}
 
-
 h1{
     color:pink;
 }
@@ -18,7 +17,6 @@ h1{
     border:0px;
     &:hover {background-color: rgb(255, 218, 224);}
 }
-
 
 
 input[type=text],[type=email],textarea {
@@ -39,6 +37,7 @@ input[type=text],[type=email],textarea {
   input[type=text],[type=email],textarea:focus {outline-color: #D77948;}
   
   /*Formato botón enviar*/
-  
+
+
 
 
