@@ -1,4 +1,3 @@
-@charset "UTF-8";
 nav {
   background-color: rgb(255, 255, 255);
 }
@@ -25,6 +24,31 @@ nav {
 }
 .active {
   background-color: rgb(255, 218, 224);
+}
+
+.rounded-pill {
+  color: rgb(255, 218, 224);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.rounded-pill:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-color: rgb(255, 218, 224);
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+.rounded-pill:hover:before {
+  height: 190%;
 }
 
 .footer {
@@ -78,6 +102,24 @@ input[type=text], [type=email], textarea:focus {
   padding: 20px;
 }
 
-/*Formato botón enviar*/
+@media only screen and (max-width: 727px) {
+  .van:hover {
+    transform: translate(80vw);
+    transition: all 3s;
+  }
+}
+@media only screen and (min-width: 728px) {
+  .van:hover {
+    transform: translate(45vw);
+    transition: all 3s;
+  }
+  .van:hover + .textoVan {
+    opacity: 1;
+  }
+}
+.textoVan {
+  display: inline-block;
+  opacity: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

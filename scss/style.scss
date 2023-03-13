@@ -6,6 +6,8 @@ padding:0;
 box-sizing: border-box;
 }
 
+
+
 .inicio{padding-top: 50px;
     padding-bottom: 50px;}
 
@@ -37,8 +39,22 @@ input[type=text],[type=email],textarea {
 
   .formulario{padding: 20px;}
 
-  /*Formato botón enviar*/
 
 
-
-
+@media only screen and (max-width: 727px) {
+    .van:hover{
+        transform: translate(80vw);
+        transition: all 3s;
+      }
+}
+@media only screen and (min-width: 728px) {
+    .van:hover{
+        transform: translate(45vw);
+        transition: all 3s;
+      }
+   .van:hover + .textoVan{opacity: 1;}
+}
+.textoVan {
+    display: inline-block;
+    opacity: 0;
+  }

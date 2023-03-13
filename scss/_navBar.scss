@@ -17,3 +17,26 @@ nav {background-color: rgb(255,255,255);}
 
 .active {background-color: rgb(255, 218, 224);}
 
+.rounded-pill{
+    color:rgb(255, 218, 224);
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    transition:all 0.5s;
+}
+.rounded-pill:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:0%;
+    width:100%;
+    background-color:rgb(255, 218, 224);
+    z-index:-1;
+    border-radius: 0 0 50% 50%;
+    transition: all 0.5s;
+}
+
+.rounded-pill:hover:before{
+    height:190%
+}
