@@ -144,7 +144,16 @@ input[type=text], [type=email], textarea:focus {
 
 .textoVan {
   opacity: 0;
-  display: inline-block;
+  display: flex;
+  text-align: right;
+}
+
+legend {
+  font-size: 1.25rem;
+}
+
+.cards {
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
