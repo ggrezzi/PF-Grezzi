@@ -52,7 +52,7 @@ input[type=text],[type=email],textarea {
   }
 
 /* The element to apply the animation to */
-#containerAnimacion:hover .van {
+#containerAnimacion .van {
 position: relative;
 animation-name: Van;
 animation-duration: 5s;
@@ -61,10 +61,10 @@ animation-iteration-count: 1;
 animation-fill-mode: forwards;
 
 }
-#containerAnimacion:hover .textoVan{
+#containerAnimacion .textoVan{
     position: relative;
     animation-name: textoVan;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-play-state:running; 
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
