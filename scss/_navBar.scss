@@ -1,22 +1,29 @@
+/* Agregado color de fondo rosado en la barra de navegacion*/
 nav {background-color: rgb(255,255,255);}
 @media only screen and (min-width: 728px) {
-    li:hover{
+    li:hover
+    /* Cambio de estilo de fuente en HOVER solo para pantallas Desktop*/
+    {
         font-style: italic;
         font-weight: 600; 
     }  
+    /* efecto boton*/
     .nav-item:hover{box-shadow: 1px 1px 5px #FABCE9;}
     .nav-item:active{box-shadow: 1px 1px 5px #FABCE9 inset;}
     .imagenAcerca{height:300px;}
-
 } 
 @media only screen and (max-width: 727px) {
-    li:active{
+    li:active
+    /*color del boton cuando se hace click en el boton*/
+    {
         background-color: rgb(253,162,205)
     }
 }
 
+/*Color del boton por defecto cuando la pagina es la activa*/
 .active {background-color: rgb(255, 218, 224);}
 
+/*Formato pastillas de la barra de navegacion*/
 .rounded-pill{
     color:rgb(255, 218, 224);
     cursor:pointer;
@@ -24,6 +31,7 @@ nav {background-color: rgb(255,255,255);}
     overflow:hidden;
     transition:all 0.5s;
 }
+/*Efecto llenado rosado cuando se mueve el mouse sobre el boton*/
 .rounded-pill:before{
     content:"";
     position:absolute;

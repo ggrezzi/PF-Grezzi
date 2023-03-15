@@ -1,3 +1,4 @@
+/* importacion info CSS de la NAvBar y del Footer*/ /* Agregado color de fondo rosado en la barra de navegacion*/
 nav {
   background-color: rgb(255, 255, 255);
 }
@@ -7,6 +8,7 @@ nav {
     font-style: italic;
     font-weight: 600;
   }
+  /* efecto boton*/
   .nav-item:hover {
     box-shadow: 1px 1px 5px #FABCE9;
   }
@@ -22,10 +24,12 @@ nav {
     background-color: rgb(253, 162, 205);
   }
 }
+/*Color del boton por defecto cuando la pagina es la activa*/
 .active {
   background-color: rgb(255, 218, 224);
 }
 
+/*Formato pastillas de la barra de navegacion*/
 .rounded-pill {
   color: rgb(255, 218, 224);
   cursor: pointer;
@@ -34,6 +38,7 @@ nav {
   transition: all 0.5s;
 }
 
+/*Efecto llenado rosado cuando se mueve el mouse sobre el boton*/
 .rounded-pill:before {
   content: "";
   position: absolute;
@@ -51,11 +56,13 @@ nav {
   height: 190%;
 }
 
+/*Agregado color de la marca al fondo del footer*/
 .footer {
   background-color: plum;
   color: black;
 }
 
+/*Seteo que aplica a todas las webs*/
 * {
   margin: 0;
   padding: 0;
@@ -63,15 +70,18 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
+/*Margen para que la web no quede oculta en la navbar o en el footer*/
 .inicio {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-h1, h3, h5, h4, h6 {
+/* color elegido por la marca para los titulos*/
+h1, h2, h3, h5, h4, h6 {
   color: pink;
 }
 
+/*cambio de los valores de btn_primary para usar los de la marca*/
 .btn-primary {
   background-color: pink;
   border: 0px;
@@ -80,6 +90,7 @@ h1, h3, h5, h4, h6 {
   background-color: rgb(255, 218, 224);
 }
 
+/*formato formularios*/
 input[type=text], [type=email], textarea {
   width: 100%;
   padding: 12px 20px;
@@ -103,6 +114,7 @@ input[type=text], [type=email], textarea:focus {
   padding: 20px;
 }
 
+/*animacion Van y texto*/
 @keyframes Van {
   0% {
     left: 0px;
@@ -124,7 +136,7 @@ input[type=text], [type=email], textarea:focus {
     opacity: 1;
   }
 }
-/* The element to apply the animation to */
+/* Elemento al que se le aplica la animacion*/
 #containerAnimacion .van {
   position: relative;
   animation-name: Van;
@@ -149,10 +161,12 @@ input[type=text], [type=email], textarea:focus {
   text-align: right;
 }
 
+/* formato para mensajes debajo de mapa y formulario*/
 legend {
   font-size: 1.25rem;
 }
 
+/* Margenes usdos en varias paginas para que no queden ocultos o pegados a la barra de nav o al pie de pagina*/
 .cards {
   margin-bottom: 50px;
 }
@@ -160,6 +174,10 @@ legend {
 .caruselTrabajos {
   padding-top: 50px;
   margin-bottom: 100px;
+}
+
+.contacto {
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
