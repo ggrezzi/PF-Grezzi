@@ -44,7 +44,7 @@ resize: none;
   
 input[type=text],[type=email],textarea:focus {outline-color: #D77948;}
 
-.formulario{padding: 20px;}
+.formulario, .acerca {padding: 20px;}
 
 
 /*animacion Van y texto*/
@@ -88,5 +88,6 @@ legend {font-size: 1.25rem;}
 /* Margenes usdos en varias paginas para que no queden ocultos o pegados a la barra de nav o al pie de pagina*/
 .cards {margin-bottom: 50px;}
 .caruselTrabajos{padding-top: 50px;
-    margin-bottom: 100px;}
+    margin-bottom: 100px;
+padding-left: 20px;}
 .contacto{padding-top: 30px;}
