@@ -23,6 +23,9 @@ nav {
   li:active {
     background-color: rgb(253, 162, 205);
   }
+  .nav-link {
+    text-align: center;
+  }
 }
 /*Color del boton por defecto cuando la pagina es la activa*/
 .active {
@@ -60,6 +63,10 @@ nav {
 .footer {
   background-color: plum;
   color: black;
+}
+
+.iconoFooter {
+  height: 24px;
 }
 
 /*Seteo que aplica a todas las webs*/

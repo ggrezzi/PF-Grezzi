@@ -11,6 +11,7 @@ nav {background-color: rgb(255,255,255);}
     .nav-item:hover{box-shadow: 1px 1px 5px #FABCE9;}
     .nav-item:active{box-shadow: 1px 1px 5px #FABCE9 inset;}
     .imagenAcerca{height:300px;}
+
 } 
 @media only screen and (max-width: 727px) {
     li:active
@@ -18,6 +19,7 @@ nav {background-color: rgb(255,255,255);}
     {
         background-color: rgb(253,162,205)
     }
+    .nav-link {text-align: center;}
 }
 
 /*Color del boton por defecto cuando la pagina es la activa*/
